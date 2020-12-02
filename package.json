@@ -1,6 +1,6 @@
 {
   "name": "@mobdata/classy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Module for comparing classifications",
   "main": "index.js",
   "repository": "https://github.com/mobdata/classy/",
@@ -35,7 +35,7 @@
     "verbose": true
   },
   "publishConfig": {
-	"access": "public"
+    "access": "public"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
