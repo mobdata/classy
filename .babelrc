@@ -1,0 +1,9 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["ff <= 11"]
+      }
+    }]
+  ]
+}

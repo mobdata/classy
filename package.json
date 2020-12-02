@@ -1,0 +1,56 @@
+{
+  "name": "@mobdata/classy",
+  "version": "0.0.0",
+  "description": "Module for comparing classifications",
+  "main": "index.js",
+  "repository": "https://github.com/mobdata/classy/",
+  "contributors": [
+    {
+      "name": "Marita Carballo",
+      "email": "MaritaRCarballo@gmail.com"
+    },
+    {
+      "name": "Timothy McKernan",
+      "email": "timbitsandbytes@gmail.com"
+    },
+    {
+      "name": "Gabriel Lake",
+      "email": "Gabe.Lake@jacobs.com"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.es6.js --out-file index.js",
+    "lint": "eslint index.es6.js",
+    "test": "npm run build; npx ava test.js"
+  },
+  "pre-commit": [
+    "test",
+    "lint"
+  ],
+  "ava": {
+    "files": [
+      "test.js"
+    ],
+    "verbose": true
+  },
+  "publishConfig": {
+	"access": "public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "ava": "^3.12.1",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.9.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "kind-of": ">=6.0.3",
+    "minimist": ">=1.2.5",
+    "pre-commit": "^1.2.2"
+  }
+}
