@@ -1,6 +1,6 @@
 {
   "name": "@mobdata/classy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module for comparing classifications",
   "main": "index.js",
   "repository": "https://github.com/mobdata/classy/",
