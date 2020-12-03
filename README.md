@@ -7,7 +7,7 @@ Module for comparing intelligence community classifications.
 Testing
 
 ````bash
-npm install --save '@jacobs.com/classy'
+npm install --save '@mobdata/classy'
 ````
 
 ## Usage
@@ -25,7 +25,7 @@ than" the document's classification.
 
 
 ````js
-import { bannerEqOrMoreSecureThan } from '@jacobs.com/classy';
+import { bannerEqOrMoreSecureThan } from '@mobdata/classy';
 
 var document = 'SECRET';
 var personX = 'CONFIDENTIAL';
@@ -47,3 +47,5 @@ Additional notes about `bannerEqOrMoreSecureThan`:
 * Abbreviations such as found in portion markings, `S//REL`, `C//FRD`, etc, are _not_ supported.
 * Not supported: non-U.S. documents markings, joint classification markings, Atomic Energy Act
   markings.
+
+Mobdata is a project under Jacobs
